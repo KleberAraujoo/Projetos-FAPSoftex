@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Pontos Turísticos da Europa">
+    <meta name="author" content="Kleberson Araújo">
+    <meta name="keywords" content="Europa, Pontos Turísticos, Lugares na Europa">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title> Página Teste</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="titulo-principal">
+            <h1> Pontos Turísticos da Europa</h1>
+        </div>
+    </header>
+
+    <div class="botao-info">
+        <p class="info-pagina">
+           Os Melhores Locais Você Encontra Aqui</p>
+    </div>
+
+    <ul>
+        <li>
+            <figure>
+                <img src="imagens/coliseu.jpg" alt="Coliseu de Roma" width="500px">
+                <figcaption class="caption"> Coliseu de Roma </figcaption>
+            </figure>
+        </li>
+
+        <li>
+            <figure>
+                <img src="imagens/big ben.jpg" alt="Big Ben na Inglaterra" width="500px">
+                <figcaption class="caption"> Big Ben na Inglaterra </figcaption>
+            </figure>
+        </li>
+
+        <li>
+            <figure>
+                <img src="imagens/torre eiffel.jpg" alt="Torre Eiffel em Paris" width="500px"> 
+                <figcaption class="caption"> Torre Eiffel em Paris </figcaption>
+            </figure>
+        </li>
+    </ul>
+
+    <p class="info-form"> Caso queira entrar em contato e saber mais sobre os pontos turísticos de determinado local, preencha o formulário abaixo.</p>
+    <div class="titulo-form">
+    <h1 class="tituloform"> Formulário</h1>
+    </div>
+
+    <section>
+        <form>
+            <div>
+                <label>Nome</label>
+                <input type="text" placeholder="Digite seu nome" name="nome" required/> 
+            </div>
+
+            <div>
+                <label>E-mail</label>
+                <input type="text" placeholder="Digite seu e-mail" name="email" required/> 
+            </div>
+
+            <div>
+                <label>Contato</label>
+                <input type="text" placeholder="Digite seu número" name="número" required/> 
+            </div>
+
+            <div>
+                <label>Mensagem</label>
+                <textarea rows="10" name="msg" required></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="enviar">
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
